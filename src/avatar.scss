@@ -105,22 +105,26 @@ $large : 92px;
 /* Avatar - Icon (SVG)
 	 ========================================================================== */
 
+.avatar-icon img {
+	display: block;
+}
+
 .avatar-icon.avatar-small img {
 	width: $small/2;
 	height: $small/2;
-	padding: $small/4 0;
+	margin: $small/4 auto;
 }
 
 .avatar-icon.avatar-medium img {
 	width: $medium/2;
 	height: $medium/2;
-	padding: $medium/4 0;
+	margin: $medium/4 auto;
 }
 
 .avatar-icon.avatar-large img {
 	width: $large/2;
 	height: $large/2;
-	padding: $large/4 0;
+	margin: $large/4 auto;
 }
 
 /* Avatar - Icon (Font)

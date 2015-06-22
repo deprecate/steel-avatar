@@ -69,20 +69,23 @@
 
 /* Avatar - Icon (SVG)
 	 ========================================================================== */
+.avatar-icon img {
+  display: block; }
+
 .avatar-icon.avatar-small img, .avatar-photo.avatar-small img.avatar-icon img {
   width: 18px;
   height: 18px;
-  padding: 9px 0; }
+  margin: 9px auto; }
 
 .avatar-icon.avatar-medium img, .avatar-photo.avatar-medium img.avatar-icon img {
   width: 28px;
   height: 28px;
-  padding: 14px 0; }
+  margin: 14px auto; }
 
 .avatar-icon.avatar-large img, .avatar-photo.avatar-large img.avatar-icon img {
   width: 46px;
   height: 46px;
-  padding: 23px 0; }
+  margin: 23px auto; }
 
 /* Avatar - Icon (Font)
 	 ========================================================================== */
