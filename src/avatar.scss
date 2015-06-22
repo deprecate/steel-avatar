@@ -25,9 +25,9 @@
 /* Avatar - Sizes
 	 ========================================================================== */
 
-$small : 3.6rem;
-$medium: 5.6rem;
-$large : 9.2rem;
+$small : 36px;
+$medium: 56px;
+$large : 92px;
 
 .avatar-small {
 	width: $small;
@@ -73,8 +73,8 @@ $large : 9.2rem;
 .avatar-initials {
 	@extend .avatar;
 	@include anim(opacity);
-	color: $white;
-	font-weight: $semiBold;
+	color: white;
+	font-weight: 600;
 	text-align: center;
 	text-transform: uppercase;
 }
@@ -132,7 +132,7 @@ $large : 9.2rem;
 	@include anim(opacity);
 }
 
-$icon12Medium: 3.6rem;
+$icon12Medium: 36px;
 
 .avatar-icon-12.avatar-medium {
 	width: $icon12Medium;
@@ -141,11 +141,11 @@ $icon12Medium: 3.6rem;
 
 .avatar-icon-12.avatar-medium span,
 .avatar-icon-12.avatar-medium span {
-	font-size: 1.2rem;
+	font-size: 12px;
 	line-height: $icon12Medium;
 }
 
-$icon12Large: 7.2rem;
+$icon12Large: 72px;
 
 .avatar-icon-12.avatar-large {
 	width: $icon12Large;
@@ -154,11 +154,11 @@ $icon12Large: 7.2rem;
 
 .avatar-icon-12.avatar-large span,
 .avatar-icon-12.avatar-large span {
-	font-size: 2.4rem;
+	font-size: 24px;
 	line-height: $icon12Large;
 }
 
-$icon16Medium: 5.6rem;
+$icon16Medium: 56px;
 
 .avatar-icon-16.avatar-medium {
 	width: $icon16Medium;
@@ -167,11 +167,11 @@ $icon16Medium: 5.6rem;
 
 .avatar-icon-16.avatar-medium span,
 .avatar-icon-16.avatar-medium span {
-	font-size: 1.6rem;
+	font-size: 16px;
 	line-height: $icon16Medium;
 }
 
-$icon16Large: 9.2rem;
+$icon16Large: 92px;
 
 .avatar-icon-16.avatar-large {
 	width: $icon16Large;
@@ -180,6 +180,6 @@ $icon16Large: 9.2rem;
 
 .avatar-icon-16.avatar-large span,
 .avatar-icon-16.avatar-large span {
-	font-size: 3.2rem;
+	font-size: 32px;
 	line-height: $icon16Large;
 }
