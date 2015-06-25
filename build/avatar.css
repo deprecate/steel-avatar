@@ -69,9 +69,6 @@
 
 /* Avatar - Icon (SVG)
 	 ========================================================================== */
-.avatar-icon img {
-  display: block; }
-
 .avatar-icon.avatar-small img, .avatar-photo.avatar-small img.avatar-icon img {
   width: 18px;
   height: 18px;
