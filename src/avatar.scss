@@ -9,6 +9,7 @@
 }
 
 .avatar-photo:hover,
+.avatar-initials:hover,
 .avatar-icon:hover,
 .avatar-icon-12:hover,
 .avatar-icon-16:hover {
@@ -73,10 +74,15 @@ $large : 92px;
 .avatar-initials {
 	@extend .avatar;
 	@include anim(opacity);
+	background: rgba($primary, .3);
 	color: white;
 	font-weight: 600;
 	text-align: center;
 	text-transform: uppercase;
+}
+
+.avatar-initials:hover {
+	color: white;
 }
 
 .avatar-initials.avatar-small {
