@@ -8,14 +8,6 @@
 	border-radius: 50%;
 }
 
-.avatar-photo:hover,
-.avatar-initials:hover,
-.avatar-icon:hover,
-.avatar-icon-12:hover,
-.avatar-icon-16:hover {
-	opacity: .8;
-}
-
 .avatar {
 	@extend .avatar-round;
 	display: block;
@@ -60,10 +52,6 @@ $xlarge : 46px;
 /* Avatar - Photo
 	 ========================================================================== */
 
-.avatar-photo {
-	@include anim(opacity);
-}
-
 .avatar-photo img {
 	@extend .avatar-round;
 }
@@ -93,7 +81,6 @@ $xlarge : 46px;
 
 .avatar-initials {
 	@extend .avatar;
-	@include anim(opacity);
 	background: rgba($primary, .3);
 	color: white;
 	font-weight: 600;
@@ -135,7 +122,6 @@ $xlarge : 46px;
 
 .avatar-icon {
 	@extend .avatar;
-	@include anim(opacity);
 }
 
 /* Avatar - Icon (SVG)
@@ -177,7 +163,6 @@ $xlarge : 46px;
 .avatar-icon-12,
 .avatar-icon-16 {
 	@extend .avatar;
-	@include anim(opacity);
 }
 
 $icon12Medium: 36px;

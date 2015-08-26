@@ -4,13 +4,6 @@
 .avatar-icon-16, .avatar-photo img {
   border-radius: 50%; }
 
-.avatar-photo:hover,
-.avatar-initials:hover,
-.avatar-icon:hover,
-.avatar-icon-12:hover,
-.avatar-icon-16:hover {
-  opacity: .8; }
-
 .avatar, .avatar-initials, .avatar-icon, .avatar-icon-12,
 .avatar-icon-16 {
   display: block;
@@ -41,17 +34,9 @@
 
 /* Avatar - Photo
 	 ========================================================================== */
-.avatar-photo {
-  -webkit-transition: opacity 0.3s ease-in-out;
-  -o-transition: opacity 0.3s ease-in-out;
-  transition: opacity 0.3s ease-in-out; }
-
 /* Avatar - Initials
 	 ========================================================================== */
 .avatar-initials {
-  -webkit-transition: opacity 0.3s ease-in-out;
-  -o-transition: opacity 0.3s ease-in-out;
-  transition: opacity 0.3s ease-in-out;
   background: rgba(35, 50, 64, 0.3);
   color: white;
   font-weight: 600;
@@ -83,11 +68,6 @@
 
 /* Avatar - Icon
 	 ========================================================================== */
-.avatar-icon {
-  -webkit-transition: opacity 0.3s ease-in-out;
-  -o-transition: opacity 0.3s ease-in-out;
-  transition: opacity 0.3s ease-in-out; }
-
 /* Avatar - Icon (SVG)
 	 ========================================================================== */
 .avatar-icon.avatar-xsmall img, .avatar-photo.avatar-xsmall img.avatar-icon img {
@@ -117,12 +97,6 @@
 
 /* Avatar - Icon (Font)
 	 ========================================================================== */
-.avatar-icon-12,
-.avatar-icon-16 {
-  -webkit-transition: opacity 0.3s ease-in-out;
-  -o-transition: opacity 0.3s ease-in-out;
-  transition: opacity 0.3s ease-in-out; }
-
 .avatar-icon-12.avatar-medium, .avatar-photo.avatar-medium img.avatar-icon-12 {
   width: 36px;
   height: 36px; }
