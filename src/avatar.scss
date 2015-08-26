@@ -26,9 +26,16 @@
 /* Avatar - Sizes
 	 ========================================================================== */
 
-$small : 36px;
-$medium: 56px;
-$large : 92px;
+$xsmall : 32px;
+$small  : 34px;
+$medium : 36px;
+$large  : 44px;
+$xlarge : 46px;
+
+.avatar-xsmall {
+	width: $xsmall;
+	height: $xsmall;
+}
 
 .avatar-small {
 	width: $small;
@@ -45,6 +52,11 @@ $large : 92px;
 	height: $large;
 }
 
+.avatar-xlarge {
+	width: $xlarge;
+	height: $xlarge;
+}
+
 /* Avatar - Photo
 	 ========================================================================== */
 
@@ -54,6 +66,10 @@ $large : 92px;
 
 .avatar-photo img {
 	@extend .avatar-round;
+}
+
+.avatar-photo.avatar-xsmall img {
+	@extend .avatar-xsmall;
 }
 
 .avatar-photo.avatar-small img {
@@ -66,6 +82,10 @@ $large : 92px;
 
 .avatar-photo.avatar-large img {
 	@extend .avatar-large;
+}
+
+.avatar-photo.avatar-xlarge img {
+	@extend .avatar-xlarge;
 }
 
 /* Avatar - Initials
@@ -85,19 +105,29 @@ $large : 92px;
 	color: white;
 }
 
+.avatar-initials.avatar-xsmall {
+	font-size: 12px;
+	line-height: $xsmall;
+}
+
 .avatar-initials.avatar-small {
-	font-size: $small/4;
+	font-size: 13px;
 	line-height: $small;
 }
 
 .avatar-initials.avatar-medium {
-	font-size: $medium/4;
+	font-size: 14px;
 	line-height: $medium;
 }
 
 .avatar-initials.avatar-large {
-	font-size: $large/4;
+	font-size: 15px;
 	line-height: $large;
+}
+
+.avatar-initials.avatar-xlarge {
+	font-size: 16px;
+	line-height: $xlarge;
 }
 
 /* Avatar - Icon
@@ -110,6 +140,12 @@ $large : 92px;
 
 /* Avatar - Icon (SVG)
 	 ========================================================================== */
+
+.avatar-icon.avatar-xsmall img {
+	width: $xsmall/2;
+	height: $xsmall/2;
+	margin: $xsmall/4 auto;
+}
 
 .avatar-icon.avatar-small img {
 	width: $small/2;
@@ -127,6 +163,12 @@ $large : 92px;
 	width: $large/2;
 	height: $large/2;
 	margin: $large/4 auto;
+}
+
+.avatar-icon.avatar-xlarge img {
+	width: $xlarge/2;
+	height: $xlarge/2;
+	margin: $xlarge/4 auto;
 }
 
 /* Avatar - Icon (Font)

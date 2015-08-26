@@ -4,8 +4,8 @@
 .avatar-icon-16, .avatar-photo img {
   border-radius: 50%; }
 
-.avatar-initials:hover,
 .avatar-photo:hover,
+.avatar-initials:hover,
 .avatar-icon:hover,
 .avatar-icon-12:hover,
 .avatar-icon-16:hover {
@@ -19,17 +19,25 @@
 
 /* Avatar - Sizes
 	 ========================================================================== */
+.avatar-xsmall, .avatar-photo.avatar-xsmall img {
+  width: 32px;
+  height: 32px; }
+
 .avatar-small, .avatar-photo.avatar-small img {
+  width: 34px;
+  height: 34px; }
+
+.avatar-medium, .avatar-photo.avatar-medium img {
   width: 36px;
   height: 36px; }
 
-.avatar-medium, .avatar-photo.avatar-medium img {
-  width: 56px;
-  height: 56px; }
-
 .avatar-large, .avatar-photo.avatar-large img {
-  width: 92px;
-  height: 92px; }
+  width: 44px;
+  height: 44px; }
+
+.avatar-xlarge, .avatar-photo.avatar-xlarge img {
+  width: 46px;
+  height: 46px; }
 
 /* Avatar - Photo
 	 ========================================================================== */
@@ -53,17 +61,25 @@
 .avatar-initials:hover {
   color: white; }
 
+.avatar-initials.avatar-xsmall, .avatar-photo.avatar-xsmall img.avatar-initials {
+  font-size: 12px;
+  line-height: 32px; }
+
 .avatar-initials.avatar-small, .avatar-photo.avatar-small img.avatar-initials {
-  font-size: 9px;
-  line-height: 36px; }
+  font-size: 13px;
+  line-height: 34px; }
 
 .avatar-initials.avatar-medium, .avatar-photo.avatar-medium img.avatar-initials {
   font-size: 14px;
-  line-height: 56px; }
+  line-height: 36px; }
 
 .avatar-initials.avatar-large, .avatar-photo.avatar-large img.avatar-initials {
-  font-size: 23px;
-  line-height: 92px; }
+  font-size: 15px;
+  line-height: 44px; }
+
+.avatar-initials.avatar-xlarge, .avatar-photo.avatar-xlarge img.avatar-initials {
+  font-size: 16px;
+  line-height: 46px; }
 
 /* Avatar - Icon
 	 ========================================================================== */
@@ -74,20 +90,30 @@
 
 /* Avatar - Icon (SVG)
 	 ========================================================================== */
+.avatar-icon.avatar-xsmall img, .avatar-photo.avatar-xsmall img.avatar-icon img {
+  width: 16px;
+  height: 16px;
+  margin: 8px auto; }
+
 .avatar-icon.avatar-small img, .avatar-photo.avatar-small img.avatar-icon img {
+  width: 17px;
+  height: 17px;
+  margin: 8.5px auto; }
+
+.avatar-icon.avatar-medium img, .avatar-photo.avatar-medium img.avatar-icon img {
   width: 18px;
   height: 18px;
   margin: 9px auto; }
 
-.avatar-icon.avatar-medium img, .avatar-photo.avatar-medium img.avatar-icon img {
-  width: 28px;
-  height: 28px;
-  margin: 14px auto; }
-
 .avatar-icon.avatar-large img, .avatar-photo.avatar-large img.avatar-icon img {
-  width: 46px;
-  height: 46px;
-  margin: 23px auto; }
+  width: 22px;
+  height: 22px;
+  margin: 11px auto; }
+
+.avatar-icon.avatar-xlarge img, .avatar-photo.avatar-xlarge img.avatar-icon img {
+  width: 23px;
+  height: 23px;
+  margin: 11.5px auto; }
 
 /* Avatar - Icon (Font)
 	 ========================================================================== */
