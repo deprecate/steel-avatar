@@ -39,6 +39,7 @@
 .avatar-initials {
   background: rgba(35, 50, 64, 0.3);
   color: white;
+  cursor: default;
   font-weight: 600;
   text-align: center;
   text-transform: uppercase; }
