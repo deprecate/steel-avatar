@@ -37,9 +37,10 @@
 /* Avatar - Initials
 	 ========================================================================== */
 .avatar-initials {
-  background: rgba(35, 50, 64, 0.3);
+  background: rgba(14, 20, 26, 0.3);
   color: white;
   cursor: default;
+  font-family: "brandon-grotesque", sans-serif;
   font-weight: 600;
   text-align: center;
   text-transform: uppercase; }
