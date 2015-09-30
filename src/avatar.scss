@@ -214,3 +214,20 @@ $icon16Large: 92px;
 	font-size: 32px;
 	line-height: $icon16Large;
 }
+
+/* Avatar - Photo + Initials
+	 ========================================================================== */
+
+.avatar-container {
+	display: inline-block;
+	position: relative;
+}
+
+.avatar-container .avatar-photo {
+	z-index: 1;
+}
+
+.avatar-container .avatar-photo,
+.avatar-container .avatar-initials {
+	position: absolute;
+}
