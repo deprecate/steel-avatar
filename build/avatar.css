@@ -142,4 +142,5 @@
 
 .avatar-container .avatar-photo,
 .avatar-container .avatar-initials {
-  position: absolute; }
+  position: absolute;
+  left: 0; }
