@@ -134,7 +134,7 @@
 /* Avatar - Photo + Initials
 	 ========================================================================== */
 .avatar-container {
-  display: inline-block;
+  display: block;
   position: relative; }
 
 .avatar-container .avatar-photo {
